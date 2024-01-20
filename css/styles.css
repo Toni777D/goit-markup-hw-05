@@ -509,6 +509,9 @@ img {
   line-height: 2;
   letter-spacing: 0.04em;
 }
+.label-footer-input {
+  padding-left: 16px;
+}
 .btn-subscribe {
   display: flex;
   align-items: center;
@@ -685,6 +688,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
+
 .form-textarea-wraper {
   margin-bottom: 16px;
 }
@@ -720,11 +724,11 @@ img {
   gap: 8px;
 }
 .label-check-span {
+  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -744,7 +748,7 @@ img {
   width: 16px;
   height: 16px;
 }
-.input-checkbox:checked + .label-check-span {
+.input-checkbox:checked {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
