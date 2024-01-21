@@ -719,7 +719,6 @@ img {
   font-style: normal;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   gap: 8px;
 }
@@ -748,7 +747,7 @@ img {
   width: 16px;
   height: 16px;
 }
-.input-checkbox:checked {
+.input-checkbox:checked + .label-checkbox .label-check-span {
   background-color: #404bbf;
   fill: #f4f4fd;
   border: none;
